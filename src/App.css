@@ -1,38 +1,81 @@
-.App {
+* {
+  margin: 0;
+  padding:0;
+  box-sizing:  border-box;
+}
+
+body{
+  background-color: rgb(215, 223, 207);
+ height: 30%;
+  width: 99vw;
+
+}
+
+button {
+  height: 50%;
+  width: 10%;
+  font-size: 1.5rem;
+  border-radius: 20%;
+  border:3px solid fuchsia;
+ font-weight: 200;
+}
+h1{
+  font-size: 4rem;  
+  height: 30vh;
+  width: 100%;
   text-align: center;
+  background-color: rgb(128, 135, 238);
+   
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.foto{
+   height: 30vh;
+   width: 40vh;
+   background-color: blueviolet;
+   border:1px solid red;
+   display: flex;
+  list-style: none;
+background-image: url(img);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*
+.cat {  
+  height: 20vh;
+  width: 10vw;
+  font-size: 1.5rem;
+  background-color: chartreuse;
+  border-radius: 50%;
+  border:2px solid grey;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dog {  
+  height: 20vh;
+  width: 10vw;
+  font-size: 1.5rem;
+  background-color: chartreuse;
+  border-radius: 50%;
+  border:1px solid aqua;
+}
+.pets{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  background-color: chartreuse;
+  height: 90vh;
+  width: 90vw;
+  border:1px solid;
 }
 
-.App-link {
-  color: #61dafb;
+.foto{
+ border:1px solid;
+ height: 80vh;
+  width: 10vh;
+  background-color: blueviolet;
+  background-color: chartreuse;
+  border:1px solid;
+}
+.faz{
+  height: 100%;
+  width: 60vw;
+  background-color:yellow;
+  border:1px solid pink;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+*/

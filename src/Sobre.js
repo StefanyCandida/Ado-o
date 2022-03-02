@@ -74,6 +74,9 @@ const Foto = styled.div`
     const A= styled.a`
 text-decoration:none;    `
 
+const Main= styled.main`
+background-color: grey;
+    `
 
 
 export default class adote extends Component{
@@ -140,9 +143,9 @@ entrar = ()=>{
        
        <nav>
       <Ul>
-			<A href='App.js'><Li>Home</Li></A>
+      <A href='App.js'><Li>Home</Li></A>
 			<A href='Sobre.js'><Li>Sobre</Li></A>
-			<A href='Voluntario.js'><Li>Seja Voluntário</Li></A>
+			<A href=''><Li>Seja Voluntário</Li></A>
        <Btn onClick={this.entrar}>Entrar</Btn>
 		</Ul>
     </nav>      
@@ -151,7 +154,35 @@ entrar = ()=>{
           </div>
         </Header>
 
-        <main><Pets> 
+        <Main>
+            <div>
+        <h1>Sobre o amigo</h1>
+<p>O Amigo não se Compra é um site em que ONGs e Protetores de todo o Brasil podem divulgar cães e gatos para adoção. O projeto existia informalmente desde 2012, mas em 2017 nos registramos oficialmente como uma Associação! Isso nos permite fazer grandes parcerias com empresas e estamos bem animados sobre o que vem por aí!</p>
+
+<h2>Como funciona</h2>
+<p>1- ONGs ou protetores fazem o seu cadastro gratuitamente e no mesmo instante já podem publicar os animais com detalhes sobre suas características e personalidade;</p>
+<p>2- Pessoas que estão interessadas em ter um novo bichinho vão entrar no site e procurar um que tenha a ver com o perfil dele;</p>
+<p>3- Quando acharem aquele especial, elas clicam em “quero adotar” e pronto, é só combinar com a ONG como buscar o mais novo membro da família!</p>
+
+<h2>Quer divulgar um cão ou gato para adoção?</h2>
+<p>Se você está dando lar temporário ou quer divulgar um animal para adoção, faça seu cadastro no site e, em seguida, publique o bichinho. Coloque o máximo de características e fotos sobre ele: assim você aumenta as chances de encontrar alguém que realmente combine com seu perfil, ajudando a evitar decepção e futuros abandonos. Pelo mesmo motivo, seja sincero quanto ao estado de saúde e características do animal.</p>
+<p>Importante: este é um site de adoção e a venda de animais é proibida, ok? Usuários que tentarem vender animais serão banidos do site.</p>
+
+<h2></h2>E que tal adotar um amigo?<h2></h2>
+<p>Clique aqui para conhecer os cães e gatos que estão esperando um lar. Mas antes, leia nossas dicas sobre adoção e veja se você está pronto para receber o novo membro da família!</p>
+
+<h2>Gostou? Veja como fazer parte deste projeto</h2>
+<p>Tem vários jeitos de contribuir com o site: divulgando, sendo voluntário, comprando produtos Amigo não se Compra ou apoiando financeiramente. Clique aqui para saber como participar.</p>
+
+<h2>Siga o Amigo nas redes:</h2>
+<p>Nossas páginas no Facebook e no Instagram são puro amor!! Segue a gente lá!</p>
+
+</div>
+
+        </Main>
+
+        <footer>
+<Pets> 
                 <h1>ADOÇÃO PET</h1>
         </Pets>
         <div>
@@ -161,12 +192,8 @@ entrar = ()=>{
              <h2>{this.state.list}</h2>
 
          </div>
-        </main>
-
-        <footer>
-
         <Redes> 
-        <a href='https://www.instagram.com/adoteumamigodf/'><Rede src={insta} alt="instagram"/></a>
+      <a href='https://www.instagram.com/adoteumamigodf/'><Rede src={insta} alt="instagram"/></a>
       <a href='https://clubedogato.org.br/#sobre'><Rede src={facebook} alt="facebook"/> </a>
                  
         </Redes>   

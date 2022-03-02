@@ -151,7 +151,17 @@ entrar = ()=>{
           </div>
         </Header>
 
-        <main><Pets> 
+        <main>
+        <div>
+      <form>
+       <label>Nome:<input></input></label> 
+       <label>Endereço:<input></input></label>
+       <label>Email:<input></input></label>
+       <label>Idade:<input></input></label>
+      <Btn>Enviar</Btn>
+      </form>
+          
+      </div>  <Pets> 
                 <h1>ADOÇÃO PET</h1>
         </Pets>
         <div>
